@@ -17,6 +17,7 @@ type Config struct {
 	CasbinConf         casbin.CasbinConf
 	CoreRpc            zrpc.RpcClientConf
 	CROSConf           config.CROSConf
+	MockAuth           bool
 }
 
 type UploadConf struct {

@@ -23,6 +23,7 @@ type ServiceContext struct {
 	Trans        *i18n.Translator
 	CoreRpc      coreclient.Core
 	CloudStorage *cloud.CloudServiceGroup
+	AppAuthority rest.Middleware
 }
 
 func NewServiceContext(c config.Config) *ServiceContext {
@@ -47,5 +48,6 @@ func NewServiceContext(c config.Config) *ServiceContext {
 		Authority:    middleware.NewAuthorityMiddleware(cbn, rds, trans).Handle,
 		Trans:        trans,
 		CloudStorage: cloud.NewCloudServiceGroup(db),
+		AppAuthority: middleware.NewAppAuthorityMiddleware(&c).Handle,
 	}
 }

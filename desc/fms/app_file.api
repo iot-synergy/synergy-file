@@ -1,0 +1,22 @@
+syntax = "v1"
+
+info (
+	title:   "file management"
+	desc:    "file management"
+	author:  "Ryan SU"
+	email:   "yuansu.china.work@gmail.com"
+	version: "v1.0"
+)
+
+import "./cloud_file.api"
+
+@server (
+	group:      appfile
+	middleware: AppAuthority
+)
+service Fms {
+	// userAvatar file upload | 上传用户头像文件
+	@handler uploadUserAvatar
+	post /userAvatar/upload returns (CloudFileInfoResp)
+}
+

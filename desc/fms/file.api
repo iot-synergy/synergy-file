@@ -1,12 +1,3 @@
-syntax = "v1"
-
-info(
-	title: "file management"
-	desc: "file management"
-	author: "Ryan SU"
-	email: "yuansu.china.work@gmail.com"
-	version: "v1.0"
-)
 
 import "../base.api"
 
@@ -108,9 +99,9 @@ type (
 )
 
 @server(
-	jwt : Auth
-	group: file
-	middleware: Authority
+    jwt: Auth
+    group: file
+    middleware: Authority
 )
 
 service Fms {
@@ -136,7 +127,7 @@ service Fms {
 }
 
 @server(
-	jwt : Auth
+	jwt: Auth
 	group: file
 )
 

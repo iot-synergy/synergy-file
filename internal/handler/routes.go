@@ -4,6 +4,7 @@ package handler
 import (
 	"net/http"
 
+	appfile "github.com/iot-synergy/synergy-file/internal/handler/appfile"
 	base "github.com/iot-synergy/synergy-file/internal/handler/base"
 	cloudfile "github.com/iot-synergy/synergy-file/internal/handler/cloudfile"
 	cloudfiletag "github.com/iot-synergy/synergy-file/internal/handler/cloudfiletag"
@@ -210,5 +211,18 @@ func RegisterHandlers(server *rest.Server, serverCtx *svc.ServiceContext) {
 			}...,
 		),
 		rest.WithJwt(serverCtx.Config.Auth.AccessSecret),
+	)
+
+	server.AddRoutes(
+		rest.WithMiddlewares(
+			[]rest.Middleware{serverCtx.AppAuthority},
+			[]rest.Route{
+				{
+					Method:  http.MethodPost,
+					Path:    "/userAvatar/upload",
+					Handler: appfile.UploadUserAvatarHandler(serverCtx),
+				},
+			}...,
+		),
 	)
 }
