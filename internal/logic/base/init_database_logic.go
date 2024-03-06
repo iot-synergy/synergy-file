@@ -2,15 +2,16 @@ package base
 
 import (
 	"context"
+
 	"entgo.io/ent/dialect/sql/schema"
-	"github.com/suyuan32/simple-admin-common/msg/logmsg"
+	"github.com/iot-synergy/synergy-common/msg/logmsg"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/suyuan32/simple-admin-common/enum/errorcode"
-	"github.com/suyuan32/simple-admin-common/i18n"
-	"github.com/suyuan32/simple-admin-file/internal/svc"
-	"github.com/suyuan32/simple-admin-file/internal/types"
+	"github.com/iot-synergy/synergy-common/enum/errorcode"
+	"github.com/iot-synergy/synergy-common/i18n"
+	"github.com/iot-synergy/synergy-file/internal/svc"
+	"github.com/iot-synergy/synergy-file/internal/types"
 	"github.com/zeromicro/go-zero/core/errorx"
 
 	"github.com/zeromicro/go-zero/core/logx"

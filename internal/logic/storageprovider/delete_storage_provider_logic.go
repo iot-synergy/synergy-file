@@ -2,15 +2,16 @@ package storageprovider
 
 import (
 	"context"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfile"
-	"github.com/suyuan32/simple-admin-file/ent/storageprovider"
-	"github.com/suyuan32/simple-admin-file/internal/svc"
-	"github.com/suyuan32/simple-admin-file/internal/types"
-	"github.com/suyuan32/simple-admin-file/internal/utils/cloud"
-	"github.com/suyuan32/simple-admin-file/internal/utils/dberrorhandler"
+
+	"github.com/iot-synergy/synergy-file/ent/cloudfile"
+	"github.com/iot-synergy/synergy-file/ent/storageprovider"
+	"github.com/iot-synergy/synergy-file/internal/svc"
+	"github.com/iot-synergy/synergy-file/internal/types"
+	"github.com/iot-synergy/synergy-file/internal/utils/cloud"
+	"github.com/iot-synergy/synergy-file/internal/utils/dberrorhandler"
 	"github.com/zeromicro/go-zero/core/errorx"
 
-	"github.com/suyuan32/simple-admin-common/i18n"
+	"github.com/iot-synergy/synergy-common/i18n"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 

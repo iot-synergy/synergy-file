@@ -10,7 +10,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	uuid "github.com/gofrs/uuid/v5"
-	"github.com/suyuan32/simple-admin-file/ent/file"
+	"github.com/iot-synergy/synergy-file/ent/file"
 )
 
 // File is the model entity for the File schema.

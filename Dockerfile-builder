@@ -1,0 +1,4 @@
+FROM golang:1.21-alpine
+
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
+RUN apk update --no-cache && apk add --no-cache git

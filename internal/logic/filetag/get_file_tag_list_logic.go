@@ -3,15 +3,15 @@ package filetag
 import (
 	"context"
 
-	"github.com/suyuan32/simple-admin-file/ent/filetag"
-	"github.com/suyuan32/simple-admin-file/ent/predicate"
-	"github.com/suyuan32/simple-admin-file/internal/svc"
-	"github.com/suyuan32/simple-admin-file/internal/types"
-	"github.com/suyuan32/simple-admin-file/internal/utils/dberrorhandler"
+	"github.com/iot-synergy/synergy-file/ent/filetag"
+	"github.com/iot-synergy/synergy-file/ent/predicate"
+	"github.com/iot-synergy/synergy-file/internal/svc"
+	"github.com/iot-synergy/synergy-file/internal/types"
+	"github.com/iot-synergy/synergy-file/internal/utils/dberrorhandler"
 
-	"github.com/suyuan32/simple-admin-common/i18n"
+	"github.com/iot-synergy/synergy-common/i18n"
 
-	"github.com/suyuan32/simple-admin-common/utils/pointy"
+	"github.com/iot-synergy/synergy-common/utils/pointy"
 	"github.com/zeromicro/go-zero/core/logx"
 )
 

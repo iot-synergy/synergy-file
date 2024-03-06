@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/suyuan32/simple-admin-file/ent/filetag"
+	"github.com/iot-synergy/synergy-file/ent/filetag"
 )
 
 // FileTag is the model entity for the FileTag schema.

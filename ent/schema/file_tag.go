@@ -7,7 +7,7 @@ import (
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/index"
-	"github.com/suyuan32/simple-admin-common/orm/ent/mixins"
+	"github.com/iot-synergy/synergy-common/orm/ent/mixins"
 )
 
 // FileTag holds the schema definition for the FileTag entity.

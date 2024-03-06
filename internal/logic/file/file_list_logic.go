@@ -2,21 +2,22 @@ package file
 
 import (
 	"context"
-	"github.com/suyuan32/simple-admin-common/utils/pointy"
-	"github.com/suyuan32/simple-admin-file/ent"
-	"github.com/suyuan32/simple-admin-file/ent/filetag"
 	"time"
 
-	"github.com/suyuan32/simple-admin-common/enum/errorcode"
-	"github.com/suyuan32/simple-admin-common/i18n"
+	"github.com/iot-synergy/synergy-common/utils/pointy"
+	"github.com/iot-synergy/synergy-file/ent"
+	"github.com/iot-synergy/synergy-file/ent/filetag"
+
+	"github.com/iot-synergy/synergy-common/enum/errorcode"
+	"github.com/iot-synergy/synergy-common/i18n"
 	"github.com/zeromicro/go-zero/core/errorx"
 
-	"github.com/suyuan32/simple-admin-file/internal/utils/dberrorhandler"
+	"github.com/iot-synergy/synergy-file/internal/utils/dberrorhandler"
 
-	"github.com/suyuan32/simple-admin-file/ent/file"
-	"github.com/suyuan32/simple-admin-file/ent/predicate"
-	"github.com/suyuan32/simple-admin-file/internal/svc"
-	"github.com/suyuan32/simple-admin-file/internal/types"
+	"github.com/iot-synergy/synergy-file/ent/file"
+	"github.com/iot-synergy/synergy-file/ent/predicate"
+	"github.com/iot-synergy/synergy-file/internal/svc"
+	"github.com/iot-synergy/synergy-file/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

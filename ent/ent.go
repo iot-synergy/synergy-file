@@ -12,11 +12,11 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfile"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfiletag"
-	"github.com/suyuan32/simple-admin-file/ent/file"
-	"github.com/suyuan32/simple-admin-file/ent/filetag"
-	"github.com/suyuan32/simple-admin-file/ent/storageprovider"
+	"github.com/iot-synergy/synergy-file/ent/cloudfile"
+	"github.com/iot-synergy/synergy-file/ent/cloudfiletag"
+	"github.com/iot-synergy/synergy-file/ent/file"
+	"github.com/iot-synergy/synergy-file/ent/filetag"
+	"github.com/iot-synergy/synergy-file/ent/storageprovider"
 )
 
 // ent aliases to avoid import conflicts in user's code.

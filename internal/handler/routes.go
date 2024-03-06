@@ -4,13 +4,13 @@ package handler
 import (
 	"net/http"
 
-	base "github.com/suyuan32/simple-admin-file/internal/handler/base"
-	cloudfile "github.com/suyuan32/simple-admin-file/internal/handler/cloudfile"
-	cloudfiletag "github.com/suyuan32/simple-admin-file/internal/handler/cloudfiletag"
-	file "github.com/suyuan32/simple-admin-file/internal/handler/file"
-	filetag "github.com/suyuan32/simple-admin-file/internal/handler/filetag"
-	storageprovider "github.com/suyuan32/simple-admin-file/internal/handler/storageprovider"
-	"github.com/suyuan32/simple-admin-file/internal/svc"
+	base "github.com/iot-synergy/synergy-file/internal/handler/base"
+	cloudfile "github.com/iot-synergy/synergy-file/internal/handler/cloudfile"
+	cloudfiletag "github.com/iot-synergy/synergy-file/internal/handler/cloudfiletag"
+	file "github.com/iot-synergy/synergy-file/internal/handler/file"
+	filetag "github.com/iot-synergy/synergy-file/internal/handler/filetag"
+	storageprovider "github.com/iot-synergy/synergy-file/internal/handler/storageprovider"
+	"github.com/iot-synergy/synergy-file/internal/svc"
 
 	"github.com/zeromicro/go-zero/rest"
 )

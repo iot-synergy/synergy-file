@@ -8,8 +8,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/suyuan32/simple-admin-file/ent/predicate"
-	"github.com/suyuan32/simple-admin-file/ent/storageprovider"
+	"github.com/iot-synergy/synergy-file/ent/predicate"
+	"github.com/iot-synergy/synergy-file/ent/storageprovider"
 )
 
 // StorageProviderDelete is the builder for deleting a StorageProvider entity.

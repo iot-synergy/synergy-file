@@ -9,7 +9,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfiletag"
+	"github.com/iot-synergy/synergy-file/ent/cloudfiletag"
 )
 
 // CloudFileTag is the model entity for the CloudFileTag schema.

@@ -1,7 +1,7 @@
 package filex
 
 import (
-	"github.com/suyuan32/simple-admin-file/internal/enum/filetype"
+	"github.com/iot-synergy/synergy-file/internal/enum/filetype"
 )
 
 // ConvertFileTypeToUint8 converts file type string to uint8.

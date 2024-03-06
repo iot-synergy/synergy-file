@@ -1,9 +1,9 @@
 package base
 
 import (
-	"github.com/suyuan32/simple-admin-common/enum/common"
-	"github.com/suyuan32/simple-admin-common/utils/pointy"
-	"github.com/suyuan32/simple-admin-core/rpc/types/core"
+	"github.com/iot-synergy/oms-core/rpc/types/core"
+	"github.com/iot-synergy/synergy-common/enum/common"
+	"github.com/iot-synergy/synergy-common/utils/pointy"
 )
 
 func (l *InitDatabaseLogic) insertApiData() error {

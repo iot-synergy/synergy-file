@@ -12,10 +12,10 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	uuid "github.com/gofrs/uuid/v5"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfile"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfiletag"
-	"github.com/suyuan32/simple-admin-file/ent/predicate"
-	"github.com/suyuan32/simple-admin-file/ent/storageprovider"
+	"github.com/iot-synergy/synergy-file/ent/cloudfile"
+	"github.com/iot-synergy/synergy-file/ent/cloudfiletag"
+	"github.com/iot-synergy/synergy-file/ent/predicate"
+	"github.com/iot-synergy/synergy-file/ent/storageprovider"
 )
 
 // CloudFileQuery is the builder for querying CloudFile entities.

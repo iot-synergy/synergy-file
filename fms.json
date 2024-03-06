@@ -794,7 +794,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "BaseIDInfo": {
       "description": "The base ID response data | 基础ID信息",
@@ -819,7 +819,7 @@
           "x-go-name": "UpdatedAt"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "BaseListInfo": {
       "description": "The basic response with data | 基础带数据信息",
@@ -837,7 +837,7 @@
           "x-go-name": "Total"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "BaseMsgResp": {
       "description": "The basic response without data | 基础不带数据信息",
@@ -855,7 +855,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "BaseUUIDInfo": {
       "description": "The base UUID response data | 基础UUID信息",
@@ -879,7 +879,7 @@
           "x-go-name": "UpdatedAt"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileInfo": {
       "description": "The response data of cloud file information | 云文件信息",
@@ -955,7 +955,7 @@
           "x-go-name": "UserId"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileInfoResp": {
       "description": "CloudFile information response | 云文件信息返回体",
@@ -979,7 +979,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileListInfo": {
       "description": "CloudFile list data | 云文件列表数据",
@@ -1000,7 +1000,7 @@
           "x-go-name": "Total"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileListReq": {
       "description": "Get cloud file list request params | 云文件列表请求参数",
@@ -1051,7 +1051,7 @@
           "x-go-name": "TagIds"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileListResp": {
       "description": "The response data of cloud file list | 云文件列表数据",
@@ -1075,7 +1075,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileTagInfo": {
       "description": "The response data of cloud file tag information | 云文件标签信息",
@@ -1116,7 +1116,7 @@
           "x-go-name": "UpdatedAt"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileTagInfoResp": {
       "description": "Cloud file tag information response | 云文件标签信息返回体",
@@ -1140,7 +1140,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileTagListInfo": {
       "description": "CloudFileTag list data | 云文件标签列表数据",
@@ -1161,7 +1161,7 @@
           "x-go-name": "Total"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileTagListReq": {
       "description": "Get cloud file tag list request params | 云文件标签列表请求参数",
@@ -1196,7 +1196,7 @@
           "x-go-name": "Remark"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "CloudFileTagListResp": {
       "description": "The response data of cloud file tag list | 云文件标签列表数据",
@@ -1220,7 +1220,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileInfo": {
       "description": "The response data of file information | 文件信息数据",
@@ -1291,7 +1291,7 @@
           "x-go-name": "UserUUID"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileListInfo": {
       "type": "object",
@@ -1311,7 +1311,7 @@
           "x-go-name": "Total"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileListReq": {
       "description": "Get file list params | 获取文件列表参数",
@@ -1372,7 +1372,7 @@
           "x-go-name": "FileTagIds"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileListResp": {
       "description": "The response data of file information list | 文件信息列表数据",
@@ -1396,7 +1396,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileTagInfo": {
       "description": "The response data of file tag information | 文件标签信息",
@@ -1437,7 +1437,7 @@
           "x-go-name": "UpdatedAt"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileTagInfoResp": {
       "description": "FileTag information response | 文件标签信息返回体",
@@ -1461,7 +1461,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileTagListInfo": {
       "description": "FileTag list data | 文件标签列表数据",
@@ -1482,7 +1482,7 @@
           "x-go-name": "Total"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileTagListReq": {
       "description": "Get file tag list request params | 文件标签列表请求参数",
@@ -1517,7 +1517,7 @@
           "x-go-name": "Remark"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "FileTagListResp": {
       "description": "The response data of file tag list | 文件标签列表数据",
@@ -1541,7 +1541,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "IDPathReq": {
       "description": "Basic ID request | 基础ID地址参数请求",
@@ -1556,7 +1556,7 @@
           "format": "uint64"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "IDReq": {
       "description": "Basic ID request | 基础ID参数请求",
@@ -1572,7 +1572,7 @@
           "x-go-name": "Id"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "IDsReq": {
       "description": "Basic IDs request | 基础ID数组参数请求",
@@ -1591,7 +1591,7 @@
           "x-go-name": "Ids"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "PageInfo": {
       "description": "The page request parameters | 列表请求参数",
@@ -1616,7 +1616,7 @@
           "x-go-name": "PageSize"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "StatusCodeReq": {
       "description": "The request params of setting boolean status | 设置状态参数",
@@ -1634,7 +1634,7 @@
           "x-go-name": "Status"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "StorageProviderInfo": {
       "description": "The response data of storage provider information | 服务提供商信息",
@@ -1704,7 +1704,7 @@
           "x-go-name": "UpdatedAt"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "StorageProviderInfoResp": {
       "description": "StorageProvider information response | 服务提供商信息返回体",
@@ -1728,7 +1728,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "StorageProviderListInfo": {
       "description": "StorageProvider list data | 服务提供商列表数据",
@@ -1749,7 +1749,7 @@
           "x-go-name": "Total"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "StorageProviderListReq": {
       "description": "Get storage provider list request params | 服务提供商列表请求参数",
@@ -1779,7 +1779,7 @@
           "x-go-name": "PageSize"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "StorageProviderListResp": {
       "description": "The response data of storage provider list | 服务提供商列表数据",
@@ -1803,7 +1803,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "UUIDPathReq": {
       "description": "Basic path UUID request | 基础UUID地址参数请求",
@@ -1817,7 +1817,7 @@
           "type": "string"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "UUIDReq": {
       "description": "Basic UUID request | 基础UUID参数请求",
@@ -1833,7 +1833,7 @@
           "x-go-name": "Id"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "UUIDsReq": {
       "description": "Basic UUID array request | 基础UUID数组参数请求",
@@ -1851,7 +1851,7 @@
           "x-go-name": "Ids"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "UpdateFileReq": {
       "description": "Update file information params | 更新文件信息参数",
@@ -1881,7 +1881,7 @@
           "x-go-name": "FileTagIds"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "UploadInfo": {
       "description": "The data when upload finished | 上传完成数据",
@@ -1898,7 +1898,7 @@
           "x-go-name": "Url"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     },
     "UploadResp": {
       "description": "The response data when upload finished | 上传完成返回的数据",
@@ -1922,7 +1922,7 @@
           "x-go-name": "Msg"
         }
       },
-      "x-go-package": "github.com/suyuan32/simple-admin-file/internal/types"
+      "x-go-package": "github.com/iot-synergy/synergy-file/internal/types"
     }
   },
   "securityDefinitions": {

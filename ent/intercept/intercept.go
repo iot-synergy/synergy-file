@@ -7,13 +7,13 @@ import (
 	"fmt"
 
 	"entgo.io/ent/dialect/sql"
-	"github.com/suyuan32/simple-admin-file/ent"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfile"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfiletag"
-	"github.com/suyuan32/simple-admin-file/ent/file"
-	"github.com/suyuan32/simple-admin-file/ent/filetag"
-	"github.com/suyuan32/simple-admin-file/ent/predicate"
-	"github.com/suyuan32/simple-admin-file/ent/storageprovider"
+	"github.com/iot-synergy/synergy-file/ent"
+	"github.com/iot-synergy/synergy-file/ent/cloudfile"
+	"github.com/iot-synergy/synergy-file/ent/cloudfiletag"
+	"github.com/iot-synergy/synergy-file/ent/file"
+	"github.com/iot-synergy/synergy-file/ent/filetag"
+	"github.com/iot-synergy/synergy-file/ent/predicate"
+	"github.com/iot-synergy/synergy-file/ent/storageprovider"
 )
 
 // The Query interface represents an operation that queries a graph.

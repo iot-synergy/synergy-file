@@ -6,7 +6,7 @@ import (
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
-	"github.com/suyuan32/simple-admin-common/orm/ent/mixins"
+	"github.com/iot-synergy/synergy-common/orm/ent/mixins"
 )
 
 // StorageProvider holds the schema definition for the StorageProvider entity.

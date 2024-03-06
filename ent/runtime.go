@@ -6,12 +6,12 @@ import (
 	"time"
 
 	uuid "github.com/gofrs/uuid/v5"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfile"
-	"github.com/suyuan32/simple-admin-file/ent/cloudfiletag"
-	"github.com/suyuan32/simple-admin-file/ent/file"
-	"github.com/suyuan32/simple-admin-file/ent/filetag"
-	"github.com/suyuan32/simple-admin-file/ent/schema"
-	"github.com/suyuan32/simple-admin-file/ent/storageprovider"
+	"github.com/iot-synergy/synergy-file/ent/cloudfile"
+	"github.com/iot-synergy/synergy-file/ent/cloudfiletag"
+	"github.com/iot-synergy/synergy-file/ent/file"
+	"github.com/iot-synergy/synergy-file/ent/filetag"
+	"github.com/iot-synergy/synergy-file/ent/schema"
+	"github.com/iot-synergy/synergy-file/ent/storageprovider"
 )
 
 // The init function reads all schema descriptors with runtime code

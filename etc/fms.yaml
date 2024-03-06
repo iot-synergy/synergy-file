@@ -21,17 +21,17 @@ Log:
   StackCoolDownMillis: 100
 
 RedisConf:
-  Host: 10.5.0.3:6379
-  Db: 0
+  Host: redis.synergy-prod:6379
+  Db: 1
 
 # DatabaseConf sets the database of file manager service.
 DatabaseConf:
   Type: mysql
-  Host: 127.0.0.1
+  Host: database-1.chwxvihnhaot.us-east-2.rds.amazonaws.com
   Port: 3306
-  DBName: simple_admin
-  Username: # set your username
-  Password: # set your password
+  DBName: peckperk
+  Username: peckperk # set your username
+  Password: peckperk # set your password
   MaxOpenConn: 100
   SSLMode: disable
   CacheTime: 5
@@ -39,11 +39,11 @@ DatabaseConf:
 # CasbinDatabaseConf sets the core database if you use the Casbin of Core.
 CasbinDatabaseConf:
   Type: mysql
-  Host: 127.0.0.1
+  Host: database-1.chwxvihnhaot.us-east-2.rds.amazonaws.com
   Port: 3306
-  DBName: simple_admin
-  Username: # set your username
-  Password: # set your password
+  DBName: peckperk
+  Username: peckperk # set your username
+  Password: peckperk # set your password
   MaxOpenConn: 100
   SSLMode: disable
   CacheTime: 5
@@ -60,5 +60,6 @@ UploadConf:
 
 # You can disable the core rpc if you have already initialized file manager's database.
 CoreRpc:
-  Target: k8s://default/core-rpc-svc:9101
+  # Target: k8s://default/core-rpc-svc:9101
+  Endpoints: oms-core-rpc.synergy-sit:9101
   Enabled: true

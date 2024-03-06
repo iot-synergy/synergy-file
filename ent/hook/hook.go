@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/suyuan32/simple-admin-file/ent"
+	"github.com/iot-synergy/synergy-file/ent"
 )
 
 // The CloudFileFunc type is an adapter to allow the use of ordinary

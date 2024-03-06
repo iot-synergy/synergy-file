@@ -3,14 +3,6 @@ package file
 import (
 	"context"
 	"fmt"
-	"github.com/duke-git/lancet/v2/datetime"
-	"github.com/duke-git/lancet/v2/fileutil"
-	"github.com/suyuan32/simple-admin-common/enum/errorcode"
-	"github.com/suyuan32/simple-admin-common/i18n"
-	"github.com/suyuan32/simple-admin-common/utils/pointy"
-	"github.com/suyuan32/simple-admin-common/utils/uuidx"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/logx"
 	"io"
 	"net/http"
 	"os"
@@ -18,10 +10,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/suyuan32/simple-admin-file/internal/svc"
-	"github.com/suyuan32/simple-admin-file/internal/types"
-	"github.com/suyuan32/simple-admin-file/internal/utils/dberrorhandler"
-	"github.com/suyuan32/simple-admin-file/internal/utils/filex"
+	"github.com/duke-git/lancet/v2/datetime"
+	"github.com/duke-git/lancet/v2/fileutil"
+	"github.com/iot-synergy/synergy-common/enum/errorcode"
+	"github.com/iot-synergy/synergy-common/i18n"
+	"github.com/iot-synergy/synergy-common/utils/pointy"
+	"github.com/iot-synergy/synergy-common/utils/uuidx"
+	"github.com/zeromicro/go-zero/core/errorx"
+	"github.com/zeromicro/go-zero/core/logx"
+
+	"github.com/iot-synergy/synergy-file/internal/svc"
+	"github.com/iot-synergy/synergy-file/internal/types"
+	"github.com/iot-synergy/synergy-file/internal/utils/dberrorhandler"
+	"github.com/iot-synergy/synergy-file/internal/utils/filex"
 )
 
 type UploadLogic struct {

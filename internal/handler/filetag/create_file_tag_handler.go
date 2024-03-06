@@ -5,9 +5,9 @@ import (
 
 	"github.com/zeromicro/go-zero/rest/httpx"
 
-	"github.com/suyuan32/simple-admin-file/internal/logic/filetag"
-	"github.com/suyuan32/simple-admin-file/internal/svc"
-	"github.com/suyuan32/simple-admin-file/internal/types"
+	"github.com/iot-synergy/synergy-file/internal/logic/filetag"
+	"github.com/iot-synergy/synergy-file/internal/svc"
+	"github.com/iot-synergy/synergy-file/internal/types"
 )
 
 // swagger:route post /file_tag/create filetag CreateFileTag
